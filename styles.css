@@ -2,7 +2,6 @@ h1{
     color: red;
     background-color: rgb(243, 243, 217, .90);
     text-align: center;
-
 }
 
 h2{
@@ -29,9 +28,13 @@ button{
 
 .header-img{
     display: flex;
-    justify-content: center;
+
 }
 
+.nav-bar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
 .tacos, .drinks {
@@ -41,6 +44,11 @@ button{
     width:300px;
     text-align: center;
 
+  }
+
+  .menu-container{
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .price{
