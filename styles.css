@@ -1,6 +1,13 @@
+h1{
+    color: red;
+    background-color: rgb(243, 243, 217, .90);
+    text-align: center;
+
+}
+
 h2{
     color: red;
-    background-color: beige;
+    background-color: rgb(245, 245, 220, .9);
 font-family: Verdana, Geneva, Tahoma, sans-serif ;
 text-align: center;}
 
@@ -15,13 +22,6 @@ button{
     font-weight: 800;
 }
 
-.nav-link1{
-    
-}
-
-.nav-bar{
-      
-}
 
 .menu-items p{
     display: inline-block;
@@ -33,9 +33,13 @@ button{
 }
 
 
-section {
+
+.tacos, .drinks {
+    
     color: red;
     background-color: rgb(243, 243, 217, .95);
+    width:300px;
+    text-align: center;
 
   }
 
