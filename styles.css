@@ -1,4 +1,5 @@
 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
     color: red;
     background-color: rgb(243, 243, 217, .90);
     text-align: center;
@@ -6,9 +7,12 @@ h1{
 
 h2{
     color: red;
-    background-color: rgb(245, 245, 220, .9);
-font-family: Verdana, Geneva, Tahoma, sans-serif ;
-text-align: center;}
+    background-color: rgb(245, 245, 220);
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    
+}
 
 body{
     background-image: url("https://img.freepik.com/premium-vector/taco-seamless-pattern-traditional-mexican-food-background_53734-90.jpg?w=2000");
@@ -24,10 +28,15 @@ button{
 
 .menu-items p{
     display: inline-block;
+    
 }
 
 .header-img{
-    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(255, 255, 255, .1);
+    width: 300px;
+    height: 200px;
 
 }
 
@@ -37,13 +46,15 @@ button{
 }
 
 
-.tacos, .drinks {
+.tacos, .bev {
     
     color: red;
     background-color: rgb(243, 243, 217, .95);
     width:300px;
     text-align: center;
-
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
   }
 
   .menu-container{
@@ -53,10 +64,10 @@ button{
 
   .price{
     text-align: right;
-    width: 50%;
+    width: 75%;
   }
 
-  .proteins{
+  .protein, .drink{
     text-align: left;
-    width: 50%;
+    width: 25%;
   }
