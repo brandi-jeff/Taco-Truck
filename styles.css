@@ -1,15 +1,19 @@
-h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+
+header{
+    font-family: 'Tahoma';
     color: red;
     background-color: rgb(243, 243, 217, .90);
-    text-align: center;
+    font-size: 50px; 
+    padding-inline: 50px;
+    text-align: center;  
 }
 
 h2{
     color: red;
     background-color: rgb(245, 245, 220);
     border: 2px solid black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
     text-align: center;
     
 }
@@ -17,32 +21,41 @@ h2{
 body{
     background-image: url("https://img.freepik.com/premium-vector/taco-seamless-pattern-traditional-mexican-food-background_53734-90.jpg?w=2000");
     background-size: cover;
-    
+}
+
+.about{
+    background-color: rgb(243, 243, 217, .90);
+    width: 300px;
+    font-family: Tahoma;
+    font-size: 20px;
 }
 
 button{
     color: crimson;
-    font-weight: 800;
+    font-size: large;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(243, 243, 217, .90);
+    
 }
 
 
 .menu-items p{
-    display: inline-block;
-    
+    display: inline-block;  
 }
 
+
 .header-img{
-    margin-right: auto;
-    margin-left: auto;
     background-color: rgb(255, 255, 255, .1);
-    width: 300px;
-    height: 200px;
+    width: 125px;
+    height: 100px;
+    margin-bottom: 40%;
 
 }
 
 .nav-bar{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 
@@ -50,6 +63,8 @@ button{
     
     color: red;
     background-color: rgb(243, 243, 217, .95);
+    font-family: sans-serif;
+    font-weight: bold;
     width:300px;
     text-align: center;
     padding-left: 20px;
@@ -60,6 +75,11 @@ button{
   .menu-container{
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .images{
+    display: flex;
+    
   }
 
   .price{
