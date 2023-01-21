@@ -1,16 +1,25 @@
 
 
-header{
+h1{
     font-family: 'Tahoma';
-    color: red;
+    color: rgb(226, 12, 41);
     background-color: rgb(243, 243, 217, .90);
     font-size: 50px; 
     padding-inline: 50px;
-    text-align: center;  
+    text-align: center; 
+     
 }
 
-h2{
-    color: red;
+header{
+    font-family: 'Tahoma';
+    color: rgb(226, 12, 41);
+    font-size: 50px; 
+    padding-inline: 50px;
+    text-align: center;
+}
+
+.menu-label{
+    color: rgb(226, 12, 41);
     background-color: rgb(245, 245, 220);
     border: 2px solid black;
     font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
@@ -25,16 +34,33 @@ body{
 
 .about{
     background-color: rgb(243, 243, 217, .90);
-    width: 350px;
+    width: 600px;
     font-family: Tahoma;
     font-size: 20px;
     border: 2px solid black;
     padding-left: 5px;
     padding-right: 5px;
+    margin-top: 4%;
+
+}
+
+.section-labels{
+    color: rgb(226, 12, 41);
+    background-color: rgb(245, 245, 220, .95);
+    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    height: 60px;
+}
+
+h3{
+    color: rgb(226, 12, 41);
+    text-align: center;
 }
 
 button{
-    color: crimson;
+    color: rgb(226, 12, 41);
     font-size: large;
     font-weight: bold;
     width: 150px;
@@ -50,10 +76,10 @@ button{
 
 
 .header-img{
-    background-color: rgb(255, 255, 255, .1);
     width: 250px;
     height: 200px;
     margin-bottom: 20%;
+    margin-top: 40px;
 
 }
 
@@ -63,8 +89,8 @@ button{
 
 
 .tacos, .bev {
-    
-    color: red;
+    margin-top: 60px;
+    color: rgb(226, 12, 41);
     background-color: rgb(243, 243, 217, .95);
     font-family: sans-serif;
     font-weight: bold;
