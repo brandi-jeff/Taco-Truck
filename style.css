@@ -44,7 +44,10 @@ body{
     
 }
 
-
+.who {
+    display: flex;
+    justify-content: center;
+}
 .about{
     background-color: rgb(243, 243, 217, .90);
     width: 600px;
