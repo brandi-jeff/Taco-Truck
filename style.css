@@ -5,74 +5,21 @@ h1{
     font-family: 'Rancho', cursive;
     color: rgb(226, 12, 41);
     background-color: rgb(243, 243, 217, .90);
-    font-size: 50px; 
-    padding-inline: 50px;
-    text-align: center; 
-     
+    font-size: 60px; 
+    text-align: center;
 }
 
 header{
-    font-family: 'Tahoma';
+    font-family: 'Rancho', cursive;
     color: rgb(226, 12, 41);
     font-size: 50px; 
     padding-inline: 50px;
     text-align: center;
 }
 
-.menu-label{
-    color: rgb(226, 12, 41);
-    background-color: rgb(245, 245, 220);
-    border: 2px solid black;
-    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
-    text-align: center;
-    
-}
-
 body{
-    background-image: url("https://img.freepik.com/premium-vector/taco-seamless-pattern-traditional-mexican-food-background_53734-90.jpg?w=2000");
+    background-image: url("./taco_bkgd.webp");
     background-size: cover;
-}
-
-.about{
-    background-color: rgb(243, 243, 217, .90);
-    width: 600px;
-    font-family: Tahoma;
-    font-size: 20px;
-    border: 2px solid black;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 4%;
-
-}
-
-.section-labels{
-    color: rgb(226, 12, 41);
-    background-color: rgb(245, 245, 220, .95);
-    font-family:  Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
-    text-align: center;
-    font-size: 30px;
-    margin-top: 80px;
-    height: 60px;
-}
-
-h3{
-    color: rgb(226, 12, 41);
-    text-align: center;
-}
-
-button{
-    color: rgb(226, 12, 41);
-    font-size: large;
-    font-weight: bold;
-    width: 150px;
-    height: 50px;
-    background-color: rgb(243, 243, 217, .90);
-    margin-bottom: 25px;;
-}
-
-
-.menu-items p{
-    display: inline-block;  
 }
 
 
@@ -88,13 +35,71 @@ button{
     margin-bottom: 50px;
 }
 
+.menu-label{
+    color: rgb(226, 12, 41);
+    background-color: rgb(245, 245, 220);
+    border: 2px solid black;
+    font-family:  'Rancho', cursive;
+    text-align: center;
+    
+}
+
+
+.about{
+    background-color: rgb(243, 243, 217, .90);
+    width: 600px;
+    font-family: 'Rancho', cursive;
+    font-size: 30px;
+    border: 2px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 4%;
+
+}
+
+.section-labels{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(226, 12, 41);
+    background-color: rgb(245, 245, 220, .95);
+    font-family:  'Rancho', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    height: 60px;
+}
+
+h3{
+    color: rgb(226, 12, 41);
+    text-align: center;
+}
+
+button{
+    color: rgb(226, 12, 41);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Rancho', cursive;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(243, 243, 217, .90);
+    margin-bottom: 25px;;
+}
+
+
+.menu-items p{
+    display: inline-block;  
+}
+
+
 
 .tacos, .bev {
     margin-top: 60px;
     color: rgb(226, 12, 41);
     background-color: rgb(243, 243, 217, .95);
-    font-family: sans-serif;
+    font-family: 'Rancho', cursive;
     font-weight: bold;
+    font-size: 20px;
     width:300px;
     text-align: center;
     padding-left: 20px;
@@ -105,13 +110,9 @@ button{
   .menu-container{
     display: flex;
     justify-content: space-evenly;
-  }
-
-  .images{
-    display: flex;
-    justify-content: center;
     
   }
+
 
   .price{
     text-align: right;
@@ -121,4 +122,11 @@ button{
   .protein, .drink{
     text-align: left;
     width: 25%;
+  }
+
+  
+  .images{
+    display: flex;
+    justify-content: center;
+    
   }
