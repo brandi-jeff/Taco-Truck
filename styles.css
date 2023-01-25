@@ -31,11 +31,14 @@ button{
 
 #subtitle{
     font-size: 30px;
-    margin-bottom: 25px;;
+    margin-bottom: 25px;
+    background-color: rgb(226, 12, 41);
+    color: rgb(243, 243, 217);
 }
 
 header{
     position: relative;
+    
 }
 
 .header-img1{
@@ -62,6 +65,7 @@ header{
 body{
     background-image: url("./taco_bkgd.webp");
     background-size: 40%;
+    background-attachment: fixed;
 }
 
 .menu-label{
@@ -107,7 +111,7 @@ body{
     font-family: 'Kavoon', cursive;
     margin-top: 60px;
     font-size: 20px;
-    width:300px;
+    width:350px;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -127,14 +131,24 @@ body{
   }
 
 
-  .price, .end{
+  .price{
     text-align: right;
-    width: 75%;
+    width: 40%;
   }
 
-  .protein, .drink, .start{
+  .end{
+    text-align: right;
+    width: 50%;
+  }
+
+  .protein, .drink{
     text-align: left;
-    width: 25%;
+    width: 60%;
+  }
+
+  .start{
+    text-align: left;
+    width: 50%;
   }
 
   
@@ -142,3 +156,5 @@ body{
     display: flex;
     justify-content: center;    
   }
+
+ 
