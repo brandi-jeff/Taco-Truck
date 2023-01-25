@@ -2,56 +2,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&family=Roboto:wght@500&family=Shadows+Into+Light&display=swap');
 
 h1{
+    font-size: 80px; 
+}
+
+.pg-custom{
+    background-color: rgb(243, 243, 217, .90);
     font-family: 'Rancho', cursive;
     color: rgb(226, 12, 41);
-    background-color: rgb(243, 243, 217, .90);
-    font-size: 60px; 
+
+}
+#welcome-box{
     text-align: center;
+    padding-bottom: 25px;
+}
+
+.nav-bar, .btn-outline-dark{
+    color:  rgb(226, 12, 41);
+    font-size: 30px; 
+    text-align: center;
+    --bs-btn-hover-bg: rgb(226, 12, 41, .90);
+    --bs-btn-hover-border-color: rgba(12, 12, 12, 0.9);
+    --bs-btn-hover-color: rgb(243, 243, 217, .90);
+    --bs-btn-padding-x: 0.375rem;
+    --bs-btn-padding-y: .125rem;  
+}
+
+button{
+    width: 100px;
+    height: 50px;
+}
+
+#subtitle{
+    font-size: 30px;
 }
 
 header{
-    font-family: 'Rancho', cursive;
-    color: rgb(226, 12, 41);
-    font-size: 50px; 
-    padding-inline: 50px;
-    text-align: center;
+    position: relative;
 }
 
-body{
-    background-image: url("./taco_bkgd.webp");
-    background-size: cover;
-}
-
-
-.header-img{
+.header-img1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
     width: 250px;
     height: 200px;
     margin-bottom: 20%;
-    margin-top: 40px;
-
+    margin-top: 20px;
 }
 
-.nav-bar{
-    margin-bottom: 50px;
+.header-img2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 20%;
+    margin-top: 20px;
+}
+
+
+body{
+    background-image: url("./taco_bkgd.webp");
+    background-size: 40%;
 }
 
 .menu-label{
-    color: rgb(226, 12, 41);
-    background-color: rgb(245, 245, 220);
     border: 2px solid black;
-    font-family:  'Rancho', cursive;
     text-align: center;
-    
+    margin-top: 20px;    
 }
 
 .who {
     display: flex;
     justify-content: center;
 }
+
 .about{
-    background-color: rgb(243, 243, 217, .90);
     width: 600px;
-    font-family: 'Rancho', cursive;
     font-size: 30px;
     border: 2px solid black;
     padding-left: 5px;
@@ -64,43 +91,22 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(226, 12, 41);
-    background-color: rgb(245, 245, 220, .95);
-    font-family:  'Rancho', cursive;
     text-align: center;
     font-size: 40px;
     margin-top: 80px;
     height: 60px;
 }
 
-h3{
-    color: rgb(226, 12, 41);
-    text-align: center;
-}
-
-button{
-    color: rgb(226, 12, 41);
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Rancho', cursive;
-    width: 100px;
-    height: 50px;
-    background-color: rgb(243, 243, 217, .90);
-    margin-bottom: 25px;;
-}
 
 
-.menu-items p{
+.menu-items p, .days p{
     display: inline-block;  
 }
 
 
 
-.tacos, .bev {
+.tacos, .bev, .hours {
     margin-top: 60px;
-    color: rgb(226, 12, 41);
-    background-color: rgb(243, 243, 217, .95);
-    font-family: 'Rancho', cursive;
     font-weight: bold;
     font-size: 20px;
     width:300px;
@@ -108,21 +114,22 @@ button{
     padding-left: 20px;
     padding-right: 20px;
     border: 2px solid black;
+    margin-bottom: 30px;
   }
 
-  .menu-container{
+  .list-container{
     display: flex;
     justify-content: space-evenly;
     
   }
 
 
-  .price{
+  .price, .end{
     text-align: right;
     width: 75%;
   }
 
-  .protein, .drink{
+  .protein, .drink, .start{
     text-align: left;
     width: 25%;
   }
@@ -130,6 +137,5 @@ button{
   
   .images{
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
   }

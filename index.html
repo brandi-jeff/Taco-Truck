@@ -5,30 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T is for Tacos</title>
-    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Shadows+Into+Light?query=shad">
+<!-- Reset CSS -->
+<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css"/> <!--  link to 3rd party css -->
+
+<!-- Google fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Rancho&family=Roboto:wght@500&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- my CSS -->
+<link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
- 
-    <section><h1>T is for Tacos!</h1></section>
-    <header>
+    <header id="welcome-box" class="pg-custom">
+    <section>
+        <h1>T is for Tacos!</h1>
+    </section>
+    
+    <p id="subtitle">If you don't like tacos, we're nacho type!</p>
         <div class="images">
     <article>
-    <img class="header-img" src="https://cdn.dribbble.com/users/1586369/screenshots/4726535/taco_truckd-01.png"  alt="taco truck photo"/>
+    <img class="header-img1" src="./taco-truck-no-bkgd.png"  alt="taco truck photo"/>
+</article>
+<article>
+    <img class="header-img2" src="./taco-truck-no-bkgd.png"  alt="taco truck photo"/>
 </article>
 </div>
-  
-    <nav class="nav-bar">
-      <button>Menu</button>  
-      <button>Locations</button>
-      <button>Hours</button>
+  <!-- extra space -->
+  <p></p>
+    <nav class="nav-bar pg-custom">
+    <button href="#menu" type="button" class="btn btn-outline-dark" >Menu</button>
+    <button href="#location" type="button" class="btn btn-outline-dark" >Location</button>
+    <button href="#hours" type="button" class="btn btn-outline-dark" >Hours</button>
       </nav>
     </header> 
 
 
-    <h3 class="section-labels">Who We Are!</h3>
+    <h2 class="section-labels pg-custom">Who We Are!</h2>
     <section class="who">
-        <article class="about">
+        <article class="about pg-custom">
         
         <p>T is for Tacos is a *fake* veteran owned Taco Truck. We could be the go-to spot in DC when you're on the hunt for mouth watering tacos! Our tacos would sell out fast so you'd need to be there early if you want a chance at a life changing taco! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, praesentium consectetur? Iusto aliquam ex fuga, sint nesciunt at excepturi provident voluptates quas quod consequuntur illum hic optio quaerat nostrum pariatur!
            </p>
@@ -36,9 +55,9 @@
     </section>
 
 
-    <h2 class="section-labels">MENU</h2>
-    <section class="menu-container">
-    <div class="tacos">
+    <h2 id="menu" class="section-labels pg-custom">Menu</h2>
+    <section class="list-container">
+    <div class="tacos pg-custom">
         <h2 class="menu-label">Tacos</h2>
 
         <article class="menu-items">
@@ -66,7 +85,7 @@
         </article>
     </div>
 
-        <div class="bev">
+        <div class="bev pg-custom">
             <h2 class="menu-label">Drinks</h2>
 
             <article class="menu-items">
@@ -90,12 +109,49 @@
             </article>
                 
             <article class="menu-items">
-                <p class ="protein">Sweet Tea</p><p class="price">3.00</p>
+                <p class ="drink">Sweet Tea</p><p class="price">3.00</p>
             </article>
         </div>
     </section>
 
-    <h2 class="section-labels">LOCATIONS</h2>
+    <h2 class="section-labels pg-custom">Locations</h2>
 
+    <article>
+        <h2 class="section-labels pg-custom">Hours of Operation</h2>
+        <section class="list-container">
+            <div class="hours pg-custom">
+            </h2>
+    
+                <article class="days">
+                    <p class ="start">Monday</p><p class="end">11AM - SOLD OUT!</p>
+                    </article>
+        
+                <article class="days">
+                    <p class ="start">Tuesday</p><p class="end">11AM - SOLD OUT!</p>
+                </article>
+        
+                <article class="days">
+                    <p class ="start">Wednesday</p><p class="end">11AM - SOLD OUT!</p>
+                </article>
+        
+                <article class="days">
+                    <p class ="start">Thursday</p><p class="end">11AM - SOLD OUT!</p>
+                </article>
+        
+                <article class="days">
+                    <p class ="start">Friday</p><p class="end">11AM - SOLD OUT!</p>
+                </article>
+                    
+                <article class="days">
+                    <p class ="start">Saturday</p><p class="end">11AM - SOLD OUT!</p>
+                </article>
+
+
+            </div>
+        </section>
+        </section>
+    </article>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
